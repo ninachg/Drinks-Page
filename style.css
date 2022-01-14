@@ -54,9 +54,10 @@
             transition-delay: 0.5s;
         
         }
-        img.mocha-image {
+        .mocha-image {
             display:block;
             max-height: 300px;
+            max-width: 300px;
             margin: 0 auto
 
         }
@@ -86,7 +87,7 @@
     .grid{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: flex-center;
         height: 800px;
     }
     .grid > div{
@@ -97,7 +98,7 @@
         height: 300px;
     }
     img.mocha-image{
-      max-height: 200px;
+        max-height: 200px;
         max-width: 200px;
 }
 }
